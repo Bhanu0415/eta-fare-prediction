@@ -1,0 +1,37 @@
+{
+  "features": [
+    "distance_km",
+    "hour",
+    "day_of_week",
+    "is_weekend",
+    "is_rush_hour",
+    "rainfall",
+    "temperature",
+    "is_holiday",
+    "vehicle_encoded",
+    "zone_encoded"
+  ],
+  "vehicle_map": {
+    "Bike": 0,
+    "Auto": 1,
+    "Cab": 2
+  },
+  "zone_map": {
+    "Downtown": 0,
+    "Airport": 1,
+    "Suburbs": 2,
+    "University": 3,
+    "Mall": 4,
+    "Station": 5
+  },
+  "eta_model": {
+    "algorithm": "Random Forest",
+    "MAE": 1.69,
+    "R2": 0.995
+  },
+  "fare_model": {
+    "algorithm": "Random Forest",
+    "MAE": 6.85,
+    "R2": 0.9931
+  }
+}
