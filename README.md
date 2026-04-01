@@ -1,7 +1,5 @@
 # 🛵 ETA & Fare Prediction — End-to-End ML App
 
-Built for Rapido Data Science Internship application.
-
 ## 📌 Problem Statement
 Predict ride ETA and fare in real-time using Machine Learning,
 with dynamic surge pricing based on demand conditions.
